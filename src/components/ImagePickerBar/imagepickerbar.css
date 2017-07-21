@@ -1,0 +1,50 @@
+.image-picker-bar{
+	position: relative;
+	background-color: #fff;
+	padding: 0 .3rem;
+}
+.image-picker-bar .select{
+	height: .9rem;
+	font-size: 0.34rem;
+
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox; 
+	display: -webkit-flex;
+	display: flex; 
+
+	-webkit-box-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+
+	webkit-box-pack: justify;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.image-picker-bar .images{
+	padding-top: .3rem;
+	display: -webkit-box; 
+	display: -moz-box; 
+	display: -ms-flexbox; 
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-lines: multiple;
+	-moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.image-picker-bar .item{
+	position: relative;
+	width: 1.28rem;
+	height: 1.28rem;
+	margin-right: .3rem;
+	margin-bottom: .3rem;
+} 
+.image-picker-bar .remove{
+	position: absolute;
+	top: -.22rem;
+	right: -.22rem;
+}

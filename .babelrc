@@ -1,0 +1,9 @@
+{
+	"plugins":[
+		"transform-decorators-legacy",
+		"add-module-exports",
+		["transform-runtime", {"polyfill": true,"regenerator": true}],
+		["import",[{ "libraryName": "antd-mobile", "style": "css" }]],
+	 ],
+	"presets":["es2015","react","stage-3"]
+}
